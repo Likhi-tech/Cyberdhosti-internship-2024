@@ -1,0 +1,244 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background: blueviolet;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #25E3E3;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+main {
+    margin-top: 5em;
+}
+
+section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 2em;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 2em;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.home-content button {
+    padding: 0.7em 1.5em;
+    font-size: 1em;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.home-content button:hover {
+    background: #444;
+}
+
+.home-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2em;
+    padding: 2em;
+}
+.about h5{
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 40%;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    flex: 2;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.about-content h5 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Skills Section */
+.skills {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 2em;
+    padding: 2em;
+}
+
+.skills .skill-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills .skill-list li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* Projects Section */
+.projects {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 2em;
+    padding: 2em;
+}
+
+.projects .project-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.projects .project-item {
+    margin-bottom: 2em;
+}
+
+.projects .project-item h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.projects .project-item p {
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+.contact {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 2em;
+    padding: 2em;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact ul li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.contact ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact ul li a:hover {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Music Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#browse">Browse</a></li>
+                    <li><a href="#stream">Stream</a></li>
+                    <li><a href="#download">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="browse" class="section">
+        <div class="container">
+            <h2>Browse Music</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="assets/images/img1.jpeg" alt="On My Way">
+                    <h3>On My Way</h3>
+                    <p>Alan Walker</p>
+                    <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+                </div>
+                <div class="card">
+                    <img src="assets/images/arjit.jpeg" alt="Alan Walker - Fade">
+                    <h3>Alan Walker - Fade</h3>
+                    <p>Alan Walker</p>
+                    <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+                </div>
+                <div class="card">
+                    <img src="assets/images/img3.jpg" alt="Aho Vaka">
+                    <h3>Aho Vaka</h3>
+                    <p>Soundrya</p>
+                    <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+                </div>
+                <div class="card">
+                    <img src="assets/images/img4.jpg" alt="Avara">
+                    <h3>sokuladi chitamma</h3>
+                    <p>magali</p>
+                    <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+                </div>
+                <div class="card">
+                    <img src="assets/images/img5.jpg" alt="Aho Vaka">
+                    <h3>love story</h3>
+                    <p>Samantha</p>
+                    <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+                </div>
+                <div class="card">
+                    <img src="assets/images/img6.jpg" alt="Aho Vaka">
+                    <h3>Narasimha naidu</h3>
+                    <p>Venu gopal</p>
+                    <button class="play-btn"><i class="fas fa-play"></i> Play</button>
+                    <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="stream" class="section">
+        <div class="container">
+            <h2>Stream Music</h2>
+            <div id="player">
+                <img id="poster_master_play" src="assets/images/img4.jpg" alt="Current Song">
+                <div id="controls">
+                    <h3 id="title">AR.Rahman</h3>
+                    <div class="buttons">
+                        <button id="back"><i class="fas fa-backward"></i></button>
+                        <button id="masterPlay" class="bi-play-fill"><i class="fas fa-play"></i></button>
+                        <button id="next"><i class="fas fa-forward"></i></button>
+                    </div>
+                    <div class="progress-bar">
+                        <span id="currentStart">0:00</span>
+                        <input type="range" id="seek" value="0">
+                        <span id="currentEnd">3:30</span>
+                    </div>
+                    <div class="volume-control">
+                        <i id="vol_icon" class="fas fa-volume-up"></i>
+                        <input type="range" id="vol" value="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="download" class="section">
+        <div class="container">
+            <h2>Download Music</h2>
+            <p>Select your favorite tracks from the list above and click the download button to save them to your device.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Music Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
